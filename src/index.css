@@ -1,0 +1,9 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  margin: 0;
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}

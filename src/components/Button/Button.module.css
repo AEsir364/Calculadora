@@ -1,0 +1,27 @@
+button {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #bbbbbb;
+  color: rgb(0, 0, 0);
+  border: 2px solid #444;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #e0e0e0;
+  border-color: #555;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #00ffcc;
+  transform: scale(0.9);
+}
